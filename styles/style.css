@@ -201,3 +201,44 @@ main {
     border-radius: 48px;
     margin-top: 20px;
 }
+
+/* info section */
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-container h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.contact-form p {
+    font-weight: 600;
+}
+
+.contact-form input {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(211, 207, 207);
+}
+.message-text{
+    height: 100px;
+    border: 1px solid rgb(211, 207, 207);
+    font-size: large;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.info-btn{
+    padding: 16px 0px;
+}
