@@ -231,7 +231,8 @@ main {
     border-radius: 8px;
     border: 1px solid rgb(211, 207, 207);
 }
-.message-text{
+
+.message-text {
     height: 100px;
     border: 1px solid rgb(211, 207, 207);
     font-size: large;
@@ -239,7 +240,31 @@ main {
     border-radius: 8px;
 }
 
-.info-btn{
+.info-btn {
     padding: 16px 0px;
 }
 
+/* footer */
+footer {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.footer-text h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.footer-text p {
+    color: rgb(175, 173, 173);
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    color: rgb(175, 173, 173);
+}
