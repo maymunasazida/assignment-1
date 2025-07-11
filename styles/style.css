@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+}
+
 .banner {
     background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
@@ -50,6 +58,8 @@
     border: none;
     border-radius: 10px;
     color: white;
+    font-family: "Raleway", sans-serif;
+
 }
 
 .btn-2:hover {
@@ -206,6 +216,7 @@ main {
 .info-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .info-container h1 {
